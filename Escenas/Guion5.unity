@@ -572,6 +572,7 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: 49506eb7a8bfb47479372d7a3d27fcf5, type: 3}
   sonido: {fileID: 8300000, guid: c3d5bc73e6627c24187644b901e99c5d, type: 3}
   botonSonido: {fileID: 8300000, guid: 0b14cf15c04f2b54db4d74792e94cde8, type: 3}
+  animacion1: {fileID: 0}
 --- !u!95 &139746381
 Animator:
   serializedVersion: 3
@@ -3777,7 +3778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3787,11 +3788,11 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 18
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 218
-    m_Alignment: 7
-    m_AlignByGeometry: 0
+    m_Alignment: 1
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0

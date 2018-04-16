@@ -11,6 +11,7 @@ public class Botones : MonoBehaviour {
 	public AudioClip clip;
 	public AudioClip sonido;
 	public AudioClip botonSonido;
+	public Animator animacion1;
 
 	public void Start () {
 		fuente.clip = clip;
@@ -26,6 +27,7 @@ public class Botones : MonoBehaviour {
 	public void btnAmerica (){
 		boton.Stop();
 		fondo.Stop ();
+		animacion1.Play ("animacion1");
 		fuente.Play ();
 		Invoke ("Empezar1_2", fuente.clip.length);
 	}
