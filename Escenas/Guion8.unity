@@ -962,7 +962,6 @@ GameObject:
   - component: {fileID: 449398076}
   - component: {fileID: 449398075}
   - component: {fileID: 449398074}
-  - component: {fileID: 449398073}
   m_Layer: 5
   m_Name: btnDere
   m_TagString: Untagged
@@ -988,21 +987,6 @@ RectTransform:
   m_AnchoredPosition: {x: 492, y: -364}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &449398073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 449398071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11b37bb4247c9264cbeb7b8f54c3df4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fuente: {fileID: 449398075}
-  fondo: {fileID: 0}
-  clip: {fileID: 8300000, guid: 234b3997745b0054a8f8ec957d5c84f7, type: 3}
-  sonido: {fileID: 8300000, guid: c3d5bc73e6627c24187644b901e99c5d, type: 3}
 --- !u!95 &449398074
 Animator:
   serializedVersion: 3
@@ -1139,7 +1123,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 449398073}
+      - m_Target: {fileID: 0}
         m_MethodName: btnBogota4
         m_Mode: 1
         m_Arguments:
