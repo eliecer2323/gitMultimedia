@@ -41,6 +41,7 @@ public class Botones : MonoBehaviour {
 	}
 
 	public void btnCundinamarca(){
+		animacion.Play ("animacion3");
 		boton.Stop();
 		fondo.Stop ();
 		fuente.Play ();
@@ -48,6 +49,7 @@ public class Botones : MonoBehaviour {
 	}
 
 	public void btnBogota(){
+		animacion.Play ("animacion4");
 		boton.Stop();
 		fondo.Stop ();
 		fuente.Play ();
