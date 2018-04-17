@@ -351,7 +351,7 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: 49506eb7a8bfb47479372d7a3d27fcf5, type: 3}
   sonido: {fileID: 8300000, guid: 65adb8b3a3b708e46852cc3537299edc, type: 3}
   botonSonido: {fileID: 8300000, guid: 234b3997745b0054a8f8ec957d5c84f7, type: 3}
-  animacion1: {fileID: 0}
+  animacion: {fileID: 0}
 --- !u!1 &491104474
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ MonoBehaviour:
   clip: {fileID: 8300000, guid: 234b3997745b0054a8f8ec957d5c84f7, type: 3}
   sonido: {fileID: 8300000, guid: 65adb8b3a3b708e46852cc3537299edc, type: 3}
   botonSonido: {fileID: 8300000, guid: 49506eb7a8bfb47479372d7a3d27fcf5, type: 3}
-  animacion1: {fileID: 2089661898}
+  animacion: {fileID: 2089661898}
 --- !u!82 &491104480
 AudioSource:
   m_ObjectHideFlags: 0
