@@ -16,7 +16,6 @@ public class Botones : MonoBehaviour {
 	public void Start () {
 		fuente.clip = clip;
 	}
-		
 
 	public void btnSalir (){
 		boton.Stop();
@@ -26,19 +25,19 @@ public class Botones : MonoBehaviour {
 	}
 
 	public void btnAmerica (){
+		animacion.Play ("animacion1");
 		boton.Stop();
 		fondo.Stop ();
 		fuente.Play ();
 		Invoke ("Empezar1_2", fuente.clip.length);
-
-
 	}
 
 	public void btnColombia(){
+		animacion.Play ("animacion2");
 		boton.Stop();
 		fondo.Stop ();
 		fuente.Play ();
-		Invoke ("Empezar2_3",fuente.clip.length);
+		Invoke ("Empezar2_3", fuente.clip.length);
 	}
 
 	public void btnCundinamarca(){
@@ -71,14 +70,8 @@ public class Botones : MonoBehaviour {
 	}
 
 	public void Empezar2_3 (){
-		animacion.Play ("animacion2");
-
-	}
-
-	public void iniciarGuion3 (){
 		SceneManager.LoadScene ("Guion3");
 	}
-
 
 	public void Empezar3_4 (){
 		SceneManager.LoadScene ("Guion4");
@@ -91,5 +84,6 @@ public class Botones : MonoBehaviour {
 	public void iniciarSonido(){
 		fondo.Play ();
 	}
+
 
 }
