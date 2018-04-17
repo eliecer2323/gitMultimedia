@@ -56,6 +56,13 @@ public class Botones : MonoBehaviour {
 		Invoke ("Empezar4_5", fuente.clip.length);
 	}
 
+	public void btnBogota2(){
+		fondo.Stop ();
+		boton.Stop ();
+		fuente.Play ();
+		Invoke ("Empezar5_6", fuente.clip.length);
+	}
+
 	public void btnNarración(){
 		boton.Stop ();
 		fondo.Stop ();
@@ -81,6 +88,10 @@ public class Botones : MonoBehaviour {
 
 	public void Empezar4_5 (){
 		SceneManager.LoadScene ("Guion5");
+	}
+
+	public void Empezar5_6 (){
+		SceneManager.LoadScene ("Guion6");
 	}
 		
 	public void iniciarSonido(){
