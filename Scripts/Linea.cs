@@ -21,6 +21,7 @@ public class Linea : MonoBehaviour {
 		terminarVestimenta ();
 		fuente.Play ();
 		empezarVias ();
+
 	}
 
 	public void btnHechos(){
@@ -30,17 +31,17 @@ public class Linea : MonoBehaviour {
 		terminarLocalidades ();
 		terminarVestimenta ();
 		fuente.Play ();
-		Invoke ("empezarHechos", fuente.clip.length);
+		empezarHechos ();
 	}
 
 	public void btnCultura(){
 		animacion.Play ("animacionVias(1)");
 		terminarVias ();
-		terminarHechos();
+		terminarHechos ();
 		terminarLocalidades ();
 		terminarVestimenta ();
 		fuente.Play ();
-		Invoke ("empezarCultura", fuente.clip.length);
+		empezarCultura();
 	}
 
 	public void btnVestimenta(){
@@ -50,7 +51,7 @@ public class Linea : MonoBehaviour {
 		terminarCultura();
 		terminarLocalidades ();
 		fuente.Play ();
-		Invoke ("empezarVestimenta", fuente.clip.length);
+		empezarVestimenta();
 	}
 
 	public void btnLocalidades(){
@@ -60,7 +61,7 @@ public class Linea : MonoBehaviour {
 		terminarCultura();
 		terminarVestimenta ();
 		fuente.Play ();
-		Invoke ("empezarLocalidades", fuente.clip.length);
+		empezarLocalidades();
 	}
 
 	public void terminarCultura(){

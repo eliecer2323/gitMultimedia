@@ -340,6 +340,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 867372692}
+  - {fileID: 1881373137}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -717,6 +718,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 425876531}
+  - {fileID: 1601501305}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -859,8 +861,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CULTURA BOGOTANA\n(A\xF1o 1400)\n\nHace mucho tiempo, antes de que tu pap\xE1,
-    tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1. Bacat\xE1
+  m_Text: "PRIMERAS VIAS\n(1800)\n\nHace mucho tiempo, antes de que tu pap\xE1, tu
+    mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1. Bacat\xE1
     significa campo de labranza (campo  para sembrar) y era el nombre que le hab\xEDan
     dado a este lugar los Muiscas y los Chibchas,  pueblos ind\xEDgenas que aqu\xED
     nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos ahora, constru\xEDan sus
@@ -949,23 +951,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CULTURA BOGOTANA\n(A\xF1o 1400)\n\nHace mucho tiempo, antes de que tu pap\xE1,
-    tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1. Bacat\xE1
-    significa campo de labranza (campo  para sembrar) y era el nombre que le hab\xEDan
-    dado a este lugar los Muiscas y los Chibchas,  pueblos ind\xEDgenas que aqu\xED
-    nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos ahora, constru\xEDan sus
-    casas con ca\xF1a, barro y techo de paja y las agrupaban en aldeas peque\xF1itas,
-    que quedaban muy lejos las unas de las otras.\r\n \r\n\r\nTambi\xE9n ten\xEDan
-    \ casas m\xE1s grandes y especiales para sus jefes, un mercado  y muchos lugares
-    sagrados e importantes para la gente. Ten\xEDan tambi\xE9n un jefe llamado el
-    ZIPA, quien gobernaba la tierra de Bacat\xE1.\r\n \r\nCom\xEDan muchas cosas diferentes
-    y nada lo compraban en tiendas como las que  conocemos ahora, cazaban animales
-    para comer carne, pescaban,  y sembraban ma\xEDz, papa, fr\xEDjoles, calabazas,
-    tomates, cubios, yuca, arracachas, batatas, muchas frutas y muchas otras cosas.\r\n\r\nTambi\xE9n
-    ten\xEDan  un mercado donde  compraban, vend\xEDan e intercambiaban alimentos
-    y objetos como sal y esmeraldas con otras tribus. As\xED consegu\xEDan aquello
-    que no se encontraba en la tierra de Bacat\xE1, como por ejemplo el algod\xF3n
-    para hacer vestidos y el oro para hacer sus joyas y adornos. "
+  m_Text: "PRIMERAS LOCALIDADES BOGOTANAS\n(A\xF1o 1800)\n\nHace mucho tiempo, antes
+    de que tu pap\xE1, tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba
+    Bacat\xE1. Bacat\xE1 significa campo de labranza (campo  para sembrar) y era el
+    nombre que le hab\xEDan dado a este lugar los Muiscas y los Chibchas,  pueblos
+    ind\xEDgenas que aqu\xED nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos
+    ahora, constru\xEDan sus casas con ca\xF1a, barro y techo de paja y las agrupaban
+    en aldeas peque\xF1itas, que quedaban muy lejos las unas de las otras.\r\n \r\n\r\nTambi\xE9n
+    ten\xEDan  casas m\xE1s grandes y especiales para sus jefes, un mercado  y muchos
+    lugares sagrados e importantes para la gente. Ten\xEDan tambi\xE9n un jefe llamado
+    el ZIPA, quien gobernaba la tierra de Bacat\xE1.\r\n \r\nCom\xEDan muchas cosas
+    diferentes y nada lo compraban en tiendas como las que  conocemos ahora, cazaban
+    animales para comer carne, pescaban,  y sembraban ma\xEDz, papa, fr\xEDjoles,
+    calabazas, tomates, cubios, yuca, arracachas, batatas, muchas frutas y muchas
+    otras cosas.\r\n\r\nTambi\xE9n ten\xEDan  un mercado donde  compraban, vend\xEDan
+    e intercambiaban alimentos y objetos como sal y esmeraldas con otras tribus. As\xED
+    consegu\xEDan aquello que no se encontraba en la tierra de Bacat\xE1, como por
+    ejemplo el algod\xF3n para hacer vestidos y el oro para hacer sus joyas y adornos. "
 --- !u!222 &200752135
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1684,23 +1686,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CULTURA BOGOTANA\n(A\xF1o 1400)\n\nHace mucho tiempo, antes de que tu pap\xE1,
-    tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1. Bacat\xE1
-    significa campo de labranza (campo  para sembrar) y era el nombre que le hab\xEDan
-    dado a este lugar los Muiscas y los Chibchas,  pueblos ind\xEDgenas que aqu\xED
-    nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos ahora, constru\xEDan sus
-    casas con ca\xF1a, barro y techo de paja y las agrupaban en aldeas peque\xF1itas,
-    que quedaban muy lejos las unas de las otras.\r\n \r\n\r\nTambi\xE9n ten\xEDan
-    \ casas m\xE1s grandes y especiales para sus jefes, un mercado  y muchos lugares
-    sagrados e importantes para la gente. Ten\xEDan tambi\xE9n un jefe llamado el
-    ZIPA, quien gobernaba la tierra de Bacat\xE1.\r\n \r\nCom\xEDan muchas cosas diferentes
-    y nada lo compraban en tiendas como las que  conocemos ahora, cazaban animales
-    para comer carne, pescaban,  y sembraban ma\xEDz, papa, fr\xEDjoles, calabazas,
-    tomates, cubios, yuca, arracachas, batatas, muchas frutas y muchas otras cosas.\r\n\r\nTambi\xE9n
-    ten\xEDan  un mercado donde  compraban, vend\xEDan e intercambiaban alimentos
-    y objetos como sal y esmeraldas con otras tribus. As\xED consegu\xEDan aquello
-    que no se encontraba en la tierra de Bacat\xE1, como por ejemplo el algod\xF3n
-    para hacer vestidos y el oro para hacer sus joyas y adornos. "
+  m_Text: "HECHOS HISTORICOS BOGOTANOS\n(A\xF1o 1800)\n\nHace mucho tiempo, antes
+    de que tu pap\xE1, tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba
+    Bacat\xE1. Bacat\xE1 significa campo de labranza (campo  para sembrar) y era el
+    nombre que le hab\xEDan dado a este lugar los Muiscas y los Chibchas,  pueblos
+    ind\xEDgenas que aqu\xED nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos
+    ahora, constru\xEDan sus casas con ca\xF1a, barro y techo de paja y las agrupaban
+    en aldeas peque\xF1itas, que quedaban muy lejos las unas de las otras.\r\n \r\n\r\nTambi\xE9n
+    ten\xEDan  casas m\xE1s grandes y especiales para sus jefes, un mercado  y muchos
+    lugares sagrados e importantes para la gente. Ten\xEDan tambi\xE9n un jefe llamado
+    el ZIPA, quien gobernaba la tierra de Bacat\xE1.\r\n \r\nCom\xEDan muchas cosas
+    diferentes y nada lo compraban en tiendas como las que  conocemos ahora, cazaban
+    animales para comer carne, pescaban,  y sembraban ma\xEDz, papa, fr\xEDjoles,
+    calabazas, tomates, cubios, yuca, arracachas, batatas, muchas frutas y muchas
+    otras cosas.\r\n\r\nTambi\xE9n ten\xEDan  un mercado donde  compraban, vend\xEDan
+    e intercambiaban alimentos y objetos como sal y esmeraldas con otras tribus. As\xED
+    consegu\xEDan aquello que no se encontraba en la tierra de Bacat\xE1, como por
+    ejemplo el algod\xF3n para hacer vestidos y el oro para hacer sus joyas y adornos. "
 --- !u!222 &433332100
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2125,8 +2127,8 @@ GameObject:
   - component: {fileID: 570574549}
   - component: {fileID: 570574548}
   - component: {fileID: 570574547}
-  - component: {fileID: 570574550}
   - component: {fileID: 570574551}
+  - component: {fileID: 570574550}
   m_Layer: 0
   m_Name: btnVias
   m_TagString: Untagged
@@ -2192,11 +2194,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 570574551}
-        m_MethodName: mostrarPlaca
-        m_Mode: 2
+        m_MethodName: btnVias
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 570574545}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2246,8 +2248,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 19062dfb563ad4249a56c49eb08302b9, type: 3}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2292,7 +2294,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -2304,7 +2306,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -2316,7 +2318,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
 --- !u!114 &570574551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2325,12 +2327,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 570574545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0cbb8fe9fc02e40adbfd80b44465af, type: 3}
+  m_Script: {fileID: 11500000, guid: 8455dd243df895146b6c1b306fc5bfa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clic: {fileID: 570574550}
-  animacion: {fileID: 0}
-  placas: {fileID: 0}
+  fondo: {fileID: 1115469701}
+  fuente: {fileID: 570574550}
+  sonido: {fileID: 8300000, guid: 39d0be0ffcdd079418735320ca7827a1, type: 3}
+  clic: {fileID: 8300000, guid: 19062dfb563ad4249a56c49eb08302b9, type: 3}
+  canvasCultura: {fileID: 56433105}
+  canvasVias: {fileID: 2073072673}
+  canvasVestimenta: {fileID: 56433105}
+  canvasHechos: {fileID: 810909214}
+  canvasLocalidades: {fileID: 2105546068}
+  animacion: {fileID: 2073072675}
 --- !u!1 &572172226
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,6 +2815,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1726481587}
+  - {fileID: 2105812714}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3269,12 +3279,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CULTURA BOGOTANA\n(A\xF1o 1400)\n\nHace mucho tiempo, antes de que tu pap\xE1,
-    tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1. Bacat\xE1
-    significa campo de labranza (campo  para sembrar) y era el nombre que le hab\xEDan
-    dado a este lugar los Muiscas y los Chibchas,  pueblos ind\xEDgenas que aqu\xED
-    nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos ahora, constru\xEDan sus
-    casas con ca\xF1a, barro y techo de paja y las agrupaban en aldeas peque\xF1itas,
+  m_Text: "VESTIMENTA BOGOTANA\n(A\xF1o 1800)\n\nHace mucho tiempo, antes de que tu
+    pap\xE1, tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1.
+    Bacat\xE1 significa campo de labranza (campo  para sembrar) y era el nombre que
+    le hab\xEDan dado a este lugar los Muiscas y los Chibchas,  pueblos ind\xEDgenas
+    que aqu\xED nacieron.\r\n \r\nLos Muiscas no viv\xEDan como vivimos ahora, constru\xEDan
+    sus casas con ca\xF1a, barro y techo de paja y las agrupaban en aldeas peque\xF1itas,
     que quedaban muy lejos las unas de las otras.\r\n \r\n\r\nTambi\xE9n ten\xEDan
     \ casas m\xE1s grandes y especiales para sus jefes, un mercado  y muchos lugares
     sagrados e importantes para la gente. Ten\xEDan tambi\xE9n un jefe llamado el
@@ -4007,7 +4017,7 @@ GameObject:
   - component: {fileID: 1364888163}
   - component: {fileID: 1364888162}
   m_Layer: 5
-  m_Name: primerasVias
+  m_Name: ScrollArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4026,7 +4036,7 @@ RectTransform:
   - {fileID: 178105780}
   - {fileID: 1141652623}
   m_Father: {fileID: 2073072674}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4201,7 +4211,7 @@ GameObject:
   - component: {fileID: 1519574943}
   - component: {fileID: 1519574942}
   m_Layer: 5
-  m_Name: primerasLocalidades
+  m_Name: ScrollArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4213,13 +4223,13 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1519574940}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1952176219}
   - {fileID: 1169713327}
-  m_Father: {fileID: 2073072674}
+  m_Father: {fileID: 2105546069}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4284,7 +4294,7 @@ GameObject:
   - component: {fileID: 1601501307}
   - component: {fileID: 1601501306}
   m_Layer: 5
-  m_Name: vestimenta
+  m_Name: ScrollArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4296,14 +4306,14 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1601501304}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1287891867}
   - {fileID: 1429903065}
-  m_Father: {fileID: 2073072674}
-  m_RootOrder: 3
+  m_Father: {fileID: 161571628}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4533,7 +4543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CULTURA BOGOTANA\n(A\xF1o 1400)\n\nHace mucho tiempo, antes de que tu pap\xE1,
+  m_Text: "CULTURA BOGOTANA\n(A\xF1o 1800)\n\nHace mucho tiempo, antes de que tu pap\xE1,
     tu mam\xE1, tus abuelos y t\xFA nacieran, Bogot\xE1 se llamaba Bacat\xE1. Bacat\xE1
     significa campo de labranza (campo  para sembrar) y era el nombre que le hab\xEDan
     dado a este lugar los Muiscas y los Chibchas,  pueblos ind\xEDgenas que aqu\xED
@@ -4922,7 +4932,7 @@ GameObject:
   - component: {fileID: 1881373139}
   - component: {fileID: 1881373138}
   m_Layer: 5
-  m_Name: culturaDos
+  m_Name: ScrollArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4934,14 +4944,14 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1881373136}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 530082794}
   - {fileID: 703498486}
-  m_Father: {fileID: 2073072674}
-  m_RootOrder: 2
+  m_Father: {fileID: 56433106}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5074,7 +5084,7 @@ GameObject:
   - component: {fileID: 2073072670}
   - component: {fileID: 2073072675}
   m_Layer: 5
-  m_Name: placas
+  m_Name: primerasVias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5154,11 +5164,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1176906568}
-  - {fileID: 1519574941}
-  - {fileID: 1881373137}
-  - {fileID: 1601501305}
   - {fileID: 1364888161}
-  - {fileID: 2105812714}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5295,6 +5301,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 860855948}
+  - {fileID: 1519574941}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5315,7 +5322,7 @@ GameObject:
   - component: {fileID: 2105812716}
   - component: {fileID: 2105812715}
   m_Layer: 5
-  m_Name: hechos
+  m_Name: ScrollArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5327,14 +5334,14 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2105812713}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 229775986}
   - {fileID: 1637588211}
-  m_Father: {fileID: 2073072674}
-  m_RootOrder: 5
+  m_Father: {fileID: 810909215}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
