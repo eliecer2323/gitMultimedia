@@ -21,8 +21,17 @@ public class Linea : MonoBehaviour {
 		terminarVestimenta ();
 		fuente.Play ();
 		empezarVias ();
-
 	}
+
+	public void btnTerminarVias(){
+		animacion.Play ("animacionVolver");
+		terminarCultura ();
+		terminarHechos ();
+		terminarLocalidades ();
+		terminarVestimenta ();
+		fuente.Play ();
+	}
+
 
 	public void btnHechos(){
 		animacion.Play ("animacionVias(1)");
@@ -32,6 +41,15 @@ public class Linea : MonoBehaviour {
 		terminarVestimenta ();
 		fuente.Play ();
 		empezarHechos ();
+	}
+
+	public void btnTerminarHechos(){
+		animacion.Play ("animacionVolver");
+		terminarVias ();
+		terminarCultura ();
+		terminarLocalidades ();
+		terminarVestimenta ();
+		fuente.Play ();
 	}
 
 	public void btnCultura(){
@@ -44,6 +62,15 @@ public class Linea : MonoBehaviour {
 		empezarCultura();
 	}
 
+	public void btnTerminarCultura(){
+		animacion.Play ("animacionVolver");
+		terminarVias ();
+		terminarHechos ();
+		terminarLocalidades ();
+		terminarVestimenta ();
+		fuente.Play ();
+	}
+
 	public void btnVestimenta(){
 		animacion.Play ("animacionVias(1)");
 		terminarVias ();
@@ -54,6 +81,15 @@ public class Linea : MonoBehaviour {
 		empezarVestimenta();
 	}
 
+	public void btnTerminarVestimenta(){
+		animacion.Play ("animacionVolver");
+		terminarVias ();
+		terminarHechos();
+		terminarCultura();
+		terminarLocalidades ();
+		fuente.Play ();
+	}
+
 	public void btnLocalidades(){
 		animacion.Play ("animacionVias(1)");
 		terminarVias ();
@@ -62,6 +98,15 @@ public class Linea : MonoBehaviour {
 		terminarVestimenta ();
 		fuente.Play ();
 		empezarLocalidades();
+	}
+
+	public void btnTerminarLocalidades(){
+		animacion.Play ("animacionVolver");
+		terminarVias ();
+		terminarHechos();
+		terminarCultura();
+		terminarVestimenta ();
+		fuente.Play ();
 	}
 
 	public void terminarCultura(){
