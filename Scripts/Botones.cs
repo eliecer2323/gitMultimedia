@@ -62,13 +62,6 @@ public class Botones : MonoBehaviour {
 		fuente.Play ();
 		Invoke ("Empezar5_6", fuente.clip.length);
 	}
-
-	public void btnNarración(){
-		boton.Stop ();
-		fondo.Stop ();
-		fuente.Play ();
-		Invoke ("iniciarSonido", fuente.clip.length);
-	}
 		
 	public void Salir(){
 		Application.Quit ();
@@ -97,6 +90,7 @@ public class Botones : MonoBehaviour {
 	public void iniciarSonido(){
 		fondo.Play ();
 	}
+
 
 
 }
