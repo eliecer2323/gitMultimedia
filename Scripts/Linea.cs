@@ -6,7 +6,7 @@ public class Linea : MonoBehaviour {
 
 	public AudioSource fondo,fuente;
 	public AudioClip sonido,clic;
-	public Canvas canvasCultura, canvasVias, canvasVestimenta, canvasHechos, canvasLocalidades;
+	public Canvas canvasCultura, canvasVias, canvasInfraestructura, canvasZonas;
 	public Animator animacion;
 
 	public void Start () {
@@ -16,98 +16,60 @@ public class Linea : MonoBehaviour {
 	public void btnVias(){
 		animacion.Play ("animacionVias(1)");
 		terminarCultura ();
-		terminarHechos ();
-		terminarLocalidades ();
-		terminarVestimenta ();
+		terminarZonas();
+		terminarInfraestructura();
 		fuente.Play ();
 		empezarVias ();
 	}
 
 	public void btnTerminarVias(){
 		animacion.Play ("animacionVolver");
-		terminarCultura ();
-		terminarHechos ();
-		terminarLocalidades ();
-		terminarVestimenta ();
 		fuente.Play ();
 	}
 
 
-	public void btnHechos(){
+	public void btnZonas(){
 		animacion.Play ("animacionVias(1)");
 		terminarVias ();
 		terminarCultura ();
-		terminarLocalidades ();
-		terminarVestimenta ();
+		terminarInfraestructura();
 		fuente.Play ();
-		empezarHechos ();
+		empezarZonas();
 	}
 
-	public void btnTerminarHechos(){
+	public void btnTerminarZonas(){
 		animacion.Play ("animacionVolver");
-		terminarVias ();
-		terminarCultura ();
-		terminarLocalidades ();
-		terminarVestimenta ();
 		fuente.Play ();
 	}
 
 	public void btnCultura(){
 		animacion.Play ("animacionVias(1)");
 		terminarVias ();
-		terminarHechos ();
-		terminarLocalidades ();
-		terminarVestimenta ();
+		terminarZonas ();
+		terminarInfraestructura();
 		fuente.Play ();
 		empezarCultura();
 	}
 
 	public void btnTerminarCultura(){
 		animacion.Play ("animacionVolver");
-		terminarVias ();
-		terminarHechos ();
-		terminarLocalidades ();
-		terminarVestimenta ();
 		fuente.Play ();
 	}
 
-	public void btnVestimenta(){
+	public void btnInfraestructura(){
 		animacion.Play ("animacionVias(1)");
 		terminarVias ();
-		terminarHechos();
+		terminarZonas();
 		terminarCultura();
-		terminarLocalidades ();
 		fuente.Play ();
-		empezarVestimenta();
+		empezarInfraestructura();
 	}
 
-	public void btnTerminarVestimenta(){
+	public void btnTerminarInfraestructura(){
 		animacion.Play ("animacionVolver");
-		terminarVias ();
-		terminarHechos();
-		terminarCultura();
-		terminarLocalidades ();
 		fuente.Play ();
 	}
-
-	public void btnLocalidades(){
-		animacion.Play ("animacionVias(1)");
-		terminarVias ();
-		terminarHechos();
-		terminarCultura();
-		terminarVestimenta ();
-		fuente.Play ();
-		empezarLocalidades();
-	}
-
-	public void btnTerminarLocalidades(){
-		animacion.Play ("animacionVolver");
-		terminarVias ();
-		terminarHechos();
-		terminarCultura();
-		terminarVestimenta ();
-		fuente.Play ();
-	}
+		
 
 	public void terminarCultura(){
 		canvasCultura.gameObject.SetActive (false);
@@ -117,16 +79,12 @@ public class Linea : MonoBehaviour {
 		canvasVias.gameObject.SetActive (false);
 	}
 
-	public void terminarVestimenta(){
-		canvasVestimenta.gameObject.SetActive (false);
+	public void terminarInfraestructura(){
+		canvasInfraestructura.gameObject.SetActive (false);
 	}
 
-	public void terminarHechos(){
-		canvasHechos.gameObject.SetActive (false);
-	}
-
-	public void terminarLocalidades(){
-		canvasLocalidades.gameObject.SetActive (false);
+	public void terminarZonas(){
+		canvasZonas.gameObject.SetActive (false);
 	}
 
 	public void empezarCultura(){
@@ -137,16 +95,13 @@ public class Linea : MonoBehaviour {
 		canvasVias.gameObject.SetActive (true);
 	}
 
-	public void empezarVestimenta(){
-		canvasVestimenta.gameObject.SetActive (true);
+	public void empezarInfraestructura(){
+		canvasInfraestructura.gameObject.SetActive (true);
 	}
 
-	public void empezarHechos(){
-		canvasHechos.gameObject.SetActive (true);
+	public void empezarZonas(){
+		canvasZonas.gameObject.SetActive (true);
 	}
-
-	public void empezarLocalidades(){
-		canvasLocalidades.gameObject.SetActive (true);
-	}
+		
 }
 
